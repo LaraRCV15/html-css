@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+
+        /*  # = id
+            . = class
+            : = pseudo-class
+            :: = pseudo-element
+            > = clildren
+        */
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a {
+            color: rgb(255, 2, 2);
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:visited {
+            color: darkred;
+        }
+        a:hover {
+            color: black;
+            text-decoration: underline;
+        }
+        a:active {
+            color: blue;
+        }
+        .especial {
+            background-color: rgb(198, 137, 255);
+        }
+
+        .especial::before{
+            content:' > ' ;
+        }
+
+        .especial::after {
+            content: ' < ';
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="https://www.linkedin.com/in/lara-ribeiro-1b4a4029b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank">Perfil Linkedln</a></li>
+        <li><a href="https://youtube.com/@lararibeiro9643?si=sfZ40yWDVzqPCVrD" target="_blank" class="especial">Canal YouTube</a></li>
+        <li><a href="https://youtube.com/cursoemvideo" target="_blank">Canal Curso em Vídeo</a></li>
+    </ul>
+</body>
+</html>

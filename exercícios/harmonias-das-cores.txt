@@ -1,0 +1,19 @@
+Módulo 2 
+
+Harmonia de cores
+
+Cores primárias - Amarelo, azul e vermelho 
+Cores secundárias - Laranja, violeta e verde
+Cores terciárias - Todas as outras cores, primárias e secundárias misturadas
+* Amarelo - esverdeado, vermelho - alaranjado, vermelho - arroxeado, azul - arroxeado, azul - esverdeado
+Cores da esquerda do círculo cromático - cores frias / cores da direita - cores quentes  
+
+Paletas de cores - de 3 a 5 cores
+
+Cores complementares - mais contraste entre si 
+* violeta - amarelo 
+* vermelho - verde 
+* azul - laranja
+
+Cores análogas - cores com pouco contraste - três vizinhas 
+Cores análogas relacionadas - duas cores vizinhas, pula uma cor e pega a próxima
