@@ -2,28 +2,30 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin: 0;
     padding: 0;
-    background-image: url('imagens/dn5.jpg');
+    background: linear-gradient(to bottom,  #771414,  #000000);
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center;
-    color: #333;
+    color: #000000;
 }
 
 header {
-    background-image: linear-gradient(to bottom,  #771414,  #000000);
-    color: white;
-    padding: 10px 0;
-    text-align: center;  min-height: 100px;
-    padding-top: 40px;
+    background-image: linear-gradient(to bottom,  #77141439,  #000000);
+    color: rgb(255, 255, 255);
+    padding: 8px 0;
+    text-align: center;
+    min-height: 100px;
+    padding-top: 20px;
+    border-radius: 10px;
 }
 
 header h1, footer p {
-    margin: 0;
+    margin: 8px;
 }
 
 nav > a {
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 a {
@@ -34,7 +36,7 @@ a {
 nav > a:hover {
     background-color: #4d1b1b;
     color: #ffffff;
-    border-radius: 15px;
+    border-radius: 20px;
 }
 
 nav ul {
@@ -69,7 +71,8 @@ main img {
 }
 
 .introducao, .livros, .autora, .contato {
-    background-color: rgba(254, 254, 254, 0.8);
+    color: rgba(255, 255, 255, 0.993);
+    background-color: rgba(162, 35, 35, 0.104);
     padding: 20px;
     margin: 20px 0;
     border-radius: 5px;
