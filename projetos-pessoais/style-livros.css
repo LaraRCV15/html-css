@@ -13,14 +13,12 @@ body {
 header {
     background-image: linear-gradient(to bottom,  #771414,  #000000);
     color: rgb(255, 255, 255);
-    padding: 5px 0;
+    min-height: 80px;
     text-align: center;  min-height: 100px;
     padding-top: 25px;
     border-radius: 10px;
-}
-
-header h1 {
-    margin: 8px;
+    font-size: 12px;
+    overflow: hidden;
 }
 
 nav > a {
@@ -73,8 +71,9 @@ main img {
     margin-bottom: 20px;
     text-align: justify;
 }
+
 .titulo-livro, .titulo-livro2, .titulo-livro3, .titulo-livro4, .titulo-livro5, .titulo-livro6,
-.titulo-livro7{
+.titulo-livro7 {
     text-align: center;
     margin: 10px;
 }
@@ -120,4 +119,11 @@ form input, form textarea, form button {
 .voltar:hover {
     transform: scale(1.05); /* Efeito de zoom ao passar o mouse */
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Aumenta a sombra ao passar o mouse */
+}
+
+footer {
+    background-image: linear-gradient(to bottom,  #771414,  #000000);
+    color: white;
+    padding: 4px 0;
+    text-align: center;
 }
