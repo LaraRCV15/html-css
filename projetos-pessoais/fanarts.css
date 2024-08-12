@@ -2,7 +2,7 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin: 0;
     padding: 0;
-    background: linear-gradient(to bottom,  #771414,  #000000);
+    background: linear-gradient(to bottom, #771414, #000000);
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -11,135 +11,56 @@ body {
 }
 
 header {
-    background-image: linear-gradient(to bottom,  #771414,  #000000);
+    background-image: linear-gradient(to bottom, #771414, #000000);
     color: rgb(255, 255, 255);
     min-height: 80px;
-    text-align: center;  min-height: 90px;
+    text-align: center;
     padding-top: 25px;
     border-radius: 10px;
     font-size: 12px;
     overflow: hidden;
 }
-h2 {
-    text-align: justify;
-}
 
-main img {
-    width: 50%;
-}
-
-.livro img {
-    max-width: 50%;
-    height: auto;
-    display: block;
-    margin: 2px auto 10px;
-}
-
-
-header {
-    background-color: #333;
-    color: #fff;
+main {
     padding: 20px;
-    text-align: center;
-}
-
-a {
-    padding: 10px;
-}
-
-h2 {
-    text-align: center;
-    margin: 0;
-    margin-bottom: 30px;
 }
 
 .gallery {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Duas colunas de igual largura */
+    gap: 20px; /* Espaço entre as fanarts */
 }
 
+.fanart {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    border-radius: 10px;
+}
 
 .fanart img {
-    width: 200px;
+    width: 40%; /* Ajusta a imagem para ocupar toda a largura da coluna */
     height: auto;
-    border-radius: 10px;
+    border-radius: 15px;
     transition: transform 0.3s ease;
 }
 
 .fanart img:hover {
+    filter: brightness(80%);
     transform: scale(1.1);
 }
 
-.fanart2 {
-    text-align: center; /* Centraliza a imagem e o texto dentro do <div> */
-    margin: 15px;       /* Espaçamento em torno do bloco .fanart2 */
+.fanart h2 {
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-size: 1.2em;
 }
 
-.fanart2 img {
-    width: 200px; /* Ajusta o tamanho da imagem conforme necessário */
-    height: auto;
-    border-radius: 10px; /* Bordas arredondadas para a imagem */
-    transition: transform 0.3s ease;
+.center {
+    text-align: center;
 }
 
-.fanart2 img:hover {
-    transform: scale(1.1); /* Efeito de zoom ao passar o mouse */
-}
-
-.fanart2 h2 {
-    margin-top: 15px; /* Adiciona espaço acima do <h2> */
-    margin-bottom: 0; /* Remove o espaço abaixo do <h2>, se necessário */
-    font-size: 1.2em; /* Ajusta o tamanho da fonte do título */
-}
-
-p {
-    margin: 10px 0 0;
-}
-
-.fanart3 {
-    text-align: center; /* Centraliza a imagem e o texto dentro do <div> */
-    margin: 25px;       /* Espaçamento em torno do bloco .fanart3 */
-}
-
-.fanart3 img {
-    width: 200px; /* Ajusta o tamanho da imagem conforme necessário */
-    height: auto;
-    border-radius: 10px; /* Bordas arredondadas para a imagem */
-    transition: transform 0.3s ease; /* Efeito de transição suave para o zoom */
-}
-
-.fanart3 img:hover {
-    transform: scale(1.1); /* Efeito de zoom ao passar o mouse */
-}
-
-.fanart3 h2 {
-    margin-top: 20px; /* Adiciona espaço acima do <h2> */
-    margin-bottom: 0; /* Remove o espaço abaixo do <h2>, se necessário */
-    font-size: 1.2em; /* Ajusta o tamanho da fonte do título */
-}
-
-
-.fanart4 {
-    text-align: center; /* Centraliza a imagem e o texto dentro do <div> */
-    margin: 25px;       /* Espaçamento em torno do bloco .fanart3 */
-    float: left;
-}
-
-.fanart4 img {
-    width: 200px; /* Ajusta o tamanho da imagem conforme necessário */
-    height: auto;
-    border-radius: 10px; /* Bordas arredondadas para a imagem */
-    transition: transform 0.3s ease; /* Efeito de transição suave para o zoom */
-}
-
-.fanart4 img:hover {
-    transform: scale(1.1); /* Efeito de zoom ao passar o mouse */
-}
-
-.fanart4 h2 {
-    margin-top: 20px; /* Adiciona espaço acima do <h2> */
-    margin-bottom: 0; /* Remove o espaço abaixo do <h2>, se necessário */
-    font-size: 1.2em; /* Ajusta o tamanho da fonte do título */
+.couple {
+    text-align: center;
 }
