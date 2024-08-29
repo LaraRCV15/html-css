@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+/* estilo para telas */
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1em;
+}
+
+header {
+    background-color: rgba(112, 141, 173, 0.84);
+}
+
+header > h1 {
+    text-align: center;
+}
+
+menu ul {
+    text-align: center;
+    list-style-type: none;
+    background-color:  rgb(153, 186, 219);
+}
+
+menu li {
+    background-color:  rgba(178, 216, 255, 0.597);
+    color: white;
+    display: inline-block;
+    padding: 10px;
+}
+
+h2 {
+    text-align: center;
+}
+
+article {
+    text-align: justify;
+    width: 600px;
+    margin: auto;
+}
